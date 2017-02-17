@@ -1,0 +1,40 @@
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\csc.exe
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\System.Collections.Immutable.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\vbc.exe
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\VBCSCompiler.exe
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\roslyn\VBCSCompiler.exe.config
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\Weather.dll.config
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\Weather.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\Weather.pdb
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\obj\Debug\Weather.dll
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\obj\Debug\Weather.pdb
+D:\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+D:\Weather\Weather\obj\Debug\Weather.dll
+D:\Weather\Weather\obj\Debug\Weather.pdb
+D:\Weather\Weather\bin\roslyn\csc.exe
+D:\Weather\Weather\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Weather\Weather\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Weather\Weather\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Weather\Weather\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Weather\Weather\bin\roslyn\System.Collections.Immutable.dll
+D:\Weather\Weather\bin\roslyn\System.Reflection.Metadata.dll
+D:\Weather\Weather\bin\roslyn\vbc.exe
+D:\Weather\Weather\bin\roslyn\VBCSCompiler.exe
+D:\Weather\Weather\bin\roslyn\VBCSCompiler.exe.config
+D:\Weather\Weather\bin\Weather.dll.config
+D:\Weather\Weather\bin\Weather.dll
+D:\Weather\Weather\bin\Weather.pdb
+D:\Weather\Weather\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Weather\Weather\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

@@ -1,0 +1,28 @@
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\app.component.js
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\app.component.js.map
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\app.module.js
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\app.module.js.map
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\main.js
+c:\users\boris\documents\visual studio 2015\Projects\Weather\Weather\app\main.js.map
+D:\Weather\Weather\app\weather-item.component.js
+D:\Weather\Weather\app\weather-item.component.js.map
+D:\Weather\Weather\app\weather-list.component.js
+D:\Weather\Weather\app\weather-list.component.js.map
+D:\Weather\Weather\app\app.component.js
+D:\Weather\Weather\app\app.component.js.map
+D:\Weather\Weather\app\app.module.js
+D:\Weather\Weather\app\app.module.js.map
+D:\Weather\Weather\app\main.js
+D:\Weather\Weather\app\main.js.map
+D:\Weather\Weather\app\weather-item.js
+D:\Weather\Weather\app\weather-item.js.map
+D:\Weather\Weather\app\weather-item.component.js
+D:\Weather\Weather\app\weather-item.component.js.map
+D:\Weather\Weather\app\weather-list.component.js
+D:\Weather\Weather\app\weather-list.component.js.map
+D:\Weather\Weather\app\app.component.js
+D:\Weather\Weather\app\app.component.js.map
+D:\Weather\Weather\app\app.module.js
+D:\Weather\Weather\app\app.module.js.map
+D:\Weather\Weather\app\main.js
+D:\Weather\Weather\app\main.js.map
