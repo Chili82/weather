@@ -19,8 +19,5 @@ import { WeatherItem } from './weather-item'
 
 export class WeatherItemComponent {
     weatherItem: WeatherItem;
-    constructor() {
-        this.weatherItem = new WeatherItem('London', 'Rainy',32);
-    }
 
 }
