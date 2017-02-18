@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var weather_list_component_1 = require("./weather-list.component");
 var weather_search_component_1 = require("./weather-search.component");
+var sidebar_component_1 = require("./sidebar.component");
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -16,8 +17,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: "<header>\n            <h1>Angular 2 Weather</h1>\n        </header>\n        <weather-search></weather-search>\n        <weather-list></weather-list>",
-        directives: [weather_list_component_1.WeatherListComponent, weather_search_component_1.WeatherSearchComponent]
+        template: "<header>\n                    <h1>Angular 2 Weather</h1>\n                </header>\n                <my-sidebar></my-sidebar>\n                <weather-search></weather-search>\n                <weather-list></weather-list>",
+        directives: [weather_list_component_1.WeatherListComponent, weather_search_component_1.WeatherSearchComponent, sidebar_component_1.SidebarComponent]
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

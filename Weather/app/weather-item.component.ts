@@ -10,11 +10,16 @@ import { WeatherItem } from './weather-item'
                 <p class="info">{{weatherItem.description}}</p>
             </div>
             <div class="col-2">
+            <div class="tempInfo">
                 <span class="temperature">{{weatherItem.temperature}}&deg;C</span>
+            </div>
+            <div class="tempInfo">
+                <img src ='http://openweathermap.org/img/w/{{weatherItem.icon}}.png' >
+            </div>
             </div>
         </article>
     `,
-    styleUrls: ['weather-item.css'],
+    styleUrls: ['weather-item.css']
     //inputs:['weatherItem:item']
 })
 

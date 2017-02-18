@@ -22,8 +22,8 @@ __decorate([
 WeatherItemComponent = __decorate([
     core_1.Component({
         selector: 'weather-item',
-        template: "\n        <article class=\"weather-element\">\n            <div class=\"col-1\">\n                <h3>{{weatherItem.cityName}}</h3>\n                <p class=\"info\">{{weatherItem.description}}</p>\n            </div>\n            <div class=\"col-2\">\n                <span class=\"temperature\">{{weatherItem.temperature}}&deg;C</span>\n            </div>\n        </article>\n    ",
-        styleUrls: ['weather-item.css'],
+        template: "\n        <article class=\"weather-element\">\n            <div class=\"col-1\">\n                <h3>{{weatherItem.cityName}}</h3>\n                <p class=\"info\">{{weatherItem.description}}</p>\n            </div>\n            <div class=\"col-2\">\n            <div class=\"tempInfo\">\n                <span class=\"temperature\">{{weatherItem.temperature}}&deg;C</span>\n            </div>\n            <div class=\"tempInfo\">\n                <img src ='http://openweathermap.org/img/w/{{weatherItem.icon}}.png' >\n            </div>\n            </div>\n        </article>\n    ",
+        styleUrls: ['weather-item.css']
     })
 ], WeatherItemComponent);
 exports.WeatherItemComponent = WeatherItemComponent;

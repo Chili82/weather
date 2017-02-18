@@ -16,6 +16,10 @@ export class WeatherService {
         return WEATHER_ITEMS;
     }
 
+    clearWeatherItems() {
+
+        WEATHER_ITEMS.splice(0);
+    }
     addWeatherItems(weatherItem: WeatherItem) {
         WEATHER_ITEMS.push(weatherItem);
     }

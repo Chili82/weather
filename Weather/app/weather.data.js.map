@@ -1,1 +1,1 @@
-{"version":3,"file":"weather.data.js","sourceRoot":"","sources":["weather.data.ts"],"names":[],"mappings":";AAAA,+CAA6C;AAGhC,QAAA,aAAa,GAAkB;IACxC,IAAI,0BAAW,CAAC,QAAQ,EAAE,OAAO,EAAE,EAAE,CAAC;IACtC,IAAI,0BAAW,CAAC,YAAY,EAAE,OAAO,EAAE,CAAC,CAAC;CAE5C,CAAC"}
+{"version":3,"file":"weather.data.js","sourceRoot":"","sources":["weather.data.ts"],"names":[],"mappings":";AAGa,QAAA,aAAa,GAAkB,EAAE,CAAC"}

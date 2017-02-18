@@ -20,6 +20,9 @@ var WeatherService = (function () {
     WeatherService.prototype.getWeatherItems = function () {
         return weather_data_1.WEATHER_ITEMS;
     };
+    WeatherService.prototype.clearWeatherItems = function () {
+        weather_data_1.WEATHER_ITEMS.splice(0);
+    };
     WeatherService.prototype.addWeatherItems = function (weatherItem) {
         weather_data_1.WEATHER_ITEMS.push(weatherItem);
     };

@@ -7,11 +7,10 @@
 
 header {
   background-color: #3498db;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
-  color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #f1c40f;
 }
 
@@ -45,6 +44,9 @@ header {
   font-weight: bold;
 }
 
+.tempInfo {
+    clear: both;
+}
 
 .weather-search {
     margin: 20px auto;
