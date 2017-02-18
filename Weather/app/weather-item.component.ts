@@ -10,7 +10,7 @@ import { WeatherItem } from './weather-item'
                 <p class="info">{{weatherItem.description}}</p>
             </div>
             <div class="col-2">
-                <span class="temperature">{{weatherItem.temperature}}</span>
+                <span class="temperature">{{weatherItem.temperature}}&deg;C</span>
             </div>
         </article>
     `,

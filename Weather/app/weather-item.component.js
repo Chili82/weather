@@ -22,7 +22,7 @@ __decorate([
 WeatherItemComponent = __decorate([
     core_1.Component({
         selector: 'weather-item',
-        template: "\n        <article class=\"weather-element\">\n            <div class=\"col-1\">\n                <h3>{{weatherItem.cityName}}</h3>\n                <p class=\"info\">{{weatherItem.description}}</p>\n            </div>\n            <div class=\"col-2\">\n                <span class=\"temperature\">{{weatherItem.temperature}}</span>\n            </div>\n        </article>\n    ",
+        template: "\n        <article class=\"weather-element\">\n            <div class=\"col-1\">\n                <h3>{{weatherItem.cityName}}</h3>\n                <p class=\"info\">{{weatherItem.description}}</p>\n            </div>\n            <div class=\"col-2\">\n                <span class=\"temperature\">{{weatherItem.temperature}}&deg;C</span>\n            </div>\n        </article>\n    ",
         styleUrls: ['weather-item.css'],
     })
 ], WeatherItemComponent);

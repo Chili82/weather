@@ -96,6 +96,7 @@
     <TypeScriptCompile Include="app\weather-item.component.ts" />
     <TypeScriptCompile Include="app\weather-list.component.ts" />
     <TypeScriptCompile Include="app\weather-item.ts" />
+    <TypeScriptCompile Include="app\weather-search.component.ts" />
     <TypeScriptCompile Include="app\weather.data.ts" />
     <TypeScriptCompile Include="app\weather.service.ts" />
   </ItemGroup>

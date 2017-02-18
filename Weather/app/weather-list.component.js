@@ -23,7 +23,7 @@ var WeatherListComponent = (function () {
 WeatherListComponent = __decorate([
     core_1.Component({
         selector: 'weather-list',
-        template: "\n        <section class=\"weather-list\">\n            <weather-item *ngFor=\"#weatherItem of weatherItems\" [item]=\"weatherItem\"></weather-item>\n        </section>\n        ",
+        template: "\n        <section class=\"weather-list\">\n            <weather-item *ngFor=\"let weatherItem of weatherItems\" [item]=\"weatherItem\"></weather-item>\n        </section>\n        ",
         directives: [weather_item_component_1.WeatherItemComponent],
         providers: [weather_service_1.WeatherService]
     }),
