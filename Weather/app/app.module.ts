@@ -1,20 +1,24 @@
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import {RouterModule} from '@angular/router';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
+import { RouterModule,Routes} from '@angular/router';
+
+//import {AppRoutingModule} from './app-routing.module';
+
 import { PocetnaComponent } from './pocetna.component';
 import { DrugaComponent } from './druga.component';
 
+const routes: Routes = [
+    { path: 'pocetna', component: PocetnaComponent },
+    { path: 'druga', component: DrugaComponent },
+    { path: '', redirectTo: '/pocetna', pathMatch: 'full' }
+];
+
+
 @NgModule({
-    imports: [BrowserModule, HttpModule, FormsModule,
-        RouterModule.forRoot([
-            { path: 'pocetna', component: PocetnaComponent },
-            { path: 'druga', component: DrugaComponent },
-            { path: '', redirectTo: '/pocetna', pathMatch: 'full' }
-        ])
-    ],
+    imports: [BrowserModule, HttpModule, FormsModule, RouterModule.forRoot(routes)],
     declarations: [AppComponent, PocetnaComponent, DrugaComponent ],
   bootstrap: [AppComponent ]
 })
