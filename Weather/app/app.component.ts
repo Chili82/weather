@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
                     <h1>Angular 2 Weather</h1>
                         <nav>
                         <a routerLink="/pocetna" routerLinkActive="active">Weather</a>
-                        <a routerLink="/druga" routerLinkActive="active">Druga</a>
+                        <a routerLink="/druga" routerLinkActive="active">Web API</a>
                         </nav>
                 </header>
                 <router-outlet></router-outlet>
