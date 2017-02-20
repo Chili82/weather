@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var DrugaComponent = (function () {
+    function DrugaComponent() {
     }
-    return AppComponent;
+    return DrugaComponent;
 }());
-AppComponent = __decorate([
+DrugaComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
-        template: "<header>\n                    <h1>Angular 2 Weather</h1>\n                        <nav>\n                        <a routerLink=\"/pocetna\" routerLinkActive=\"active\">Weather</a>\n                        <a routerLink=\"/druga\" routerLinkActive=\"active\">Druga</a>\n                        </nav>\n                </header>\n                <router-outlet></router-outlet>\n"
+        selector: 'my-druga',
+        template: "<h2>Druga component</h2>"
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], DrugaComponent);
+exports.DrugaComponent = DrugaComponent;
+//# sourceMappingURL=druga.component.js.map

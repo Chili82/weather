@@ -94,7 +94,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\druga.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\pocetna.component.ts" />
     <TypeScriptCompile Include="app\profile.service.ts" />
     <TypeScriptCompile Include="app\profile.ts" />
     <TypeScriptCompile Include="app\sidebar.component.ts" />

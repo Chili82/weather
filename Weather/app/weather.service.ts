@@ -31,7 +31,7 @@ export class WeatherService {
             .map(response => response.json())
             .catch(error => {
                 console.error(error);
-                return Observable.throw(error.json())
+                return Observable.throw(error.json());
             });
     }
 }
