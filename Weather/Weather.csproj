@@ -98,6 +98,8 @@
     <TypeScriptCompile Include="app\druga.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\pocetna.component.ts" />
+    <TypeScriptCompile Include="app\product.ts" />
+    <TypeScriptCompile Include="app\product.service.ts" />
     <TypeScriptCompile Include="app\profile.service.ts" />
     <TypeScriptCompile Include="app\profile.ts" />
     <TypeScriptCompile Include="app\sidebar.component.ts" />
