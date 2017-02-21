@@ -19,8 +19,7 @@ var pocetna_component_1 = require('./pocetna.component');
 var druga_component_1 = require('./druga.component');
 var routes = [
     { path: 'pocetna', component: pocetna_component_1.PocetnaComponent },
-    { path: 'druga', component: druga_component_1.DrugaComponent },
-    { path: '', redirectTo: '/pocetna', pathMatch: 'full' }
+    { path: 'druga', component: druga_component_1.DrugaComponent }
 ];
 var AppModule = (function () {
     function AppModule() {

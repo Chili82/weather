@@ -25,7 +25,7 @@ namespace WebApiWeather.Controllers
         [Route("api/product/{name:alpha}")]
         public IEnumerable<Product> GetProductByName(string name)
         {
-            return products.Where((p) => p.Name.ToLower().Contains(name)).ToList();
+            return products.Where((p) => p.Name.ToLower().Contains(name.ToLower())).ToList();
         }
     }
 }

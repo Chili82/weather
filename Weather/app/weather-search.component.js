@@ -8,10 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var weather_service_1 = require('./weather.service');
-var weather_item_1 = require('./weather-item');
-var Subject_1 = require('rxjs/Subject');
+var core_1 = require("@angular/core");
+var weather_service_1 = require("./weather.service");
+var weather_item_1 = require("./weather-item");
+var Subject_1 = require("rxjs/Subject");
 var WeatherSearchComponent = (function () {
     function WeatherSearchComponent(_weatherService) {
         this._weatherService = _weatherService;
@@ -36,15 +36,15 @@ var WeatherSearchComponent = (function () {
             .switchMap(function (input) { return _this._weatherService.searchWeatherData(input); })
             .subscribe(function (data) { return _this.data = data; });
     };
-    WeatherSearchComponent = __decorate([
-        core_1.Component({
-            selector: 'weather-search',
-            template: "\n        <section class=\"weather-search\">\n            <form  (ngSubmit)=\"onSubmit()\">\n                <label for=\"city\">City</label>\n                <input type=\"text\" name=\"location\" id=\"city\" #input (input)=\"onSearchLocation(input.value)\" required ngModel>\n                <button type=\"submit\">Add City</button>\n                <div>\n                    <span class=\"info\">City found:</span> {{data.name}}\n                </div>\n            </form>\n        </section>\n                ",
-            providers: [weather_service_1.WeatherService]
-        }), 
-        __metadata('design:paramtypes', [weather_service_1.WeatherService])
-    ], WeatherSearchComponent);
     return WeatherSearchComponent;
 }());
+WeatherSearchComponent = __decorate([
+    core_1.Component({
+        selector: 'weather-search',
+        template: "\n        <section class=\"weather-search\">\n            <form  (ngSubmit)=\"onSubmit()\">\n                <label for=\"city\">City</label>\n                <input type=\"text\" name=\"location\" id=\"city\" #input (input)=\"onSearchLocation(input.value)\" required ngModel>\n                <button type=\"submit\">Add City</button>\n                <div>\n                    <span class=\"info\">City found:</span> {{data.name}}\n                </div>\n            </form>\n        </section>\n                ",
+        providers: [weather_service_1.WeatherService]
+    }),
+    __metadata("design:paramtypes", [weather_service_1.WeatherService])
+], WeatherSearchComponent);
 exports.WeatherSearchComponent = WeatherSearchComponent;
 //# sourceMappingURL=weather-search.component.js.map

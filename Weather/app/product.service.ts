@@ -18,7 +18,7 @@ export class ProductService {
     }
 
     getProductsByName(name: string) {
-        return this._http.get('http://localhost:9546/api/product/' + name)
+        return this._http.get('http://localhost:9546/api/product/' + name.toLowerCase())
             .map(response => response.json());
     }
 

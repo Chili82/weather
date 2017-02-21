@@ -12,8 +12,7 @@ import { DrugaComponent } from './druga.component';
 
 const routes: Routes = [
     { path: 'pocetna', component: PocetnaComponent },
-    { path: 'druga', component: DrugaComponent },
-    { path: '', redirectTo: '/pocetna', pathMatch: 'full' }
+    { path: 'druga', component: DrugaComponent }
 ];
 
 
