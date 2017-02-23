@@ -9,7 +9,8 @@ import {Subject} from 'rxjs/Subject'
     template: `
         <section class="weather-search">
             <form  (ngSubmit)="onSubmit()">
-                <label for="city">City</label>
+            <h2>Search cities and save in profile</h2>
+                <label class="bojeTeksta" for="city">City</label>
                 <input type="text" name="location" id="city" #input (input)="onSearchLocation(input.value)" required ngModel>
                 <button type="submit">Add City</button>
                 <div>
@@ -35,14 +36,14 @@ export class WeatherSearchComponent implements OnInit {
 
     onSearchLocation(cityName: string) {
 
-        if (cityName.length>0) {
+        if (cityName.length > 0) {
             this.searchStream
                 .next(cityName);
         }
     }
 
     ngOnInit() {
-
+        this._weatherService.clearWeatherItems();
         this.searchStream
             .debounceTime(300)
             .distinctUntilChanged()

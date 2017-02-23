@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<header>\n                    <h1>Angular 2 Weather</h1>\n                        <nav>\n                        <a routerLink=\"/pocetna\" routerLinkActive=\"active\">Weather</a>\n                        <a routerLink=\"/druga\" routerLinkActive=\"active\">Web API</a>\n                        </nav>\n                </header>\n                <router-outlet></router-outlet>\n"
+            template: "<header>\n                    <h1>Angular 2 Weather</h1>\n                </header>\n                        <nav>\n                        <a routerLink=\"/pocetna\" routerLinkActive=\"active\">Weather</a>\n                        <a routerLink=\"/druga\" routerLinkActive=\"active\">Web API</a>\n                        </nav>\n                <router-outlet></router-outlet>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

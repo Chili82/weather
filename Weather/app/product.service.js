@@ -24,6 +24,10 @@ var ProductService = (function () {
         return this._http.get('http://localhost:9546/api/product/' + name.toLowerCase())
             .map(function (response) { return response.json(); });
     };
+    ProductService.prototype.getWeatherByName = function (name) {
+        return this._http.get('http://localhost:9546/api/product/weather/' + name)
+            .map(function (response) { return response.json(); });
+    };
     ProductService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])

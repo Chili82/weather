@@ -11,6 +11,7 @@ import { PocetnaComponent } from './pocetna.component';
 import { DrugaComponent } from './druga.component';
 
 const routes: Routes = [
+    {path:'',component:PocetnaComponent},
     { path: 'pocetna', component: PocetnaComponent },
     { path: 'druga', component: DrugaComponent }
 ];

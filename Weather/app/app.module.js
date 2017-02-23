@@ -18,6 +18,7 @@ var router_1 = require('@angular/router');
 var pocetna_component_1 = require('./pocetna.component');
 var druga_component_1 = require('./druga.component');
 var routes = [
+    { path: '', component: pocetna_component_1.PocetnaComponent },
     { path: 'pocetna', component: pocetna_component_1.PocetnaComponent },
     { path: 'druga', component: druga_component_1.DrugaComponent }
 ];

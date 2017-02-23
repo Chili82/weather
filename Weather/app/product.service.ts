@@ -22,4 +22,9 @@ export class ProductService {
             .map(response => response.json());
     }
 
+    getWeatherByName(name: string) {
+        return this._http.get('http://localhost:9546/api/product/weather/' + name)
+            .map(response => response.json());
+    }
+
 }
