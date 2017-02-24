@@ -8,11 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var product_service_1 = require('./product.service');
-var weather_service_1 = require('./weather.service');
+var core_1 = require("@angular/core");
+var product_service_1 = require("./product.service");
+var weather_service_1 = require("./weather.service");
 var weather_item_component_1 = require("./weather-item.component");
-var weather_item_1 = require('./weather-item');
+var weather_item_1 = require("./weather-item");
 var DrugaComponent = (function () {
     function DrugaComponent(_productService, _weatherService) {
         this._productService = _productService;
@@ -38,17 +38,17 @@ var DrugaComponent = (function () {
             .subscribe(function (resProductData) { return _this.products = resProductData; });
         this.weatherItems = this._weatherService.getWeatherItems();
     };
-    DrugaComponent = __decorate([
-        core_1.Component({
-            selector: 'my-druga',
-            template: "<div style=\"width:100%;padding:10px\">\n<div style=\"width:50%;float:left;\">\n                <h2>All Products from Web API</h2>\n                <ul>\n                    <li *ngFor=\"let product of products\">{{product.Name}}: {{product.Price|currency:'USD':true}}</li>\n                </ul>\n                <div style=\"width:500px\">\n                    Product Name: <input type=\"text\" #prod >\n                        <button (click)=\"onSearch(prod.value)\">Search</button>\n                </div>\n</div>\n<div style=\"width:50%;float:left;\">\n                <div style=\"width:500px;padding:10px\">\n                <h2>Call Weather Service from Web API</h2>\n                <label class=\"bojeTeksta\" for=\"city\">City</label>\n                <input type=\"text\" name=\"location\" id=\"city\" #input required ngModel>\n                <button (click)=\"getWeather(input.value)\">Add City</button>\n                </div>\n                <div style=\"width:500px;padding:10px\">\n                <weather-item *ngFor=\"let weatherItem of weatherItems\" [item]=\"weatherItem\"></weather-item>\n                </div>\n<div>\n</div>\n\n",
-            directives: [weather_item_component_1.WeatherItemComponent],
-            providers: [product_service_1.ProductService, weather_service_1.WeatherService],
-            styleUrls: ['weather-item.css']
-        }), 
-        __metadata('design:paramtypes', [product_service_1.ProductService, weather_service_1.WeatherService])
-    ], DrugaComponent);
     return DrugaComponent;
 }());
+DrugaComponent = __decorate([
+    core_1.Component({
+        selector: 'my-druga',
+        template: "<div style=\"width:100%;padding:10px\">\n<div style=\"width:50%;float:left;\">\n                <h2>All Products from Web API</h2>\n                <ul>\n                    <li *ngFor=\"let product of products\">{{product.Name}}: {{product.Price|currency:'USD':true}}</li>\n                </ul>\n                <div style=\"width:500px\">\n                    Product Name: <input type=\"text\" #prod >\n                        <button (click)=\"onSearch(prod.value)\">Search</button>\n                </div>\n</div>\n<div style=\"width:50%;float:left;\">\n                <div style=\"width:500px;padding:10px\">\n                <h2>Call Weather Service from Web API</h2>\n                <label class=\"bojeTeksta\" for=\"city\">City</label>\n                <input type=\"text\" name=\"location\" id=\"city\" #input required ngModel>\n                <button (click)=\"getWeather(input.value)\">Add City</button>\n                </div>\n                <div style=\"width:500px;padding:10px\">\n                <weather-item *ngFor=\"let weatherItem of weatherItems\" [item]=\"weatherItem\"></weather-item>\n                </div>\n<div>\n</div>\n\n",
+        directives: [weather_item_component_1.WeatherItemComponent],
+        providers: [product_service_1.ProductService, weather_service_1.WeatherService],
+        styleUrls: ['weather-item.css']
+    }),
+    __metadata("design:paramtypes", [product_service_1.ProductService, weather_service_1.WeatherService])
+], DrugaComponent);
 exports.DrugaComponent = DrugaComponent;
 //# sourceMappingURL=druga.component.js.map

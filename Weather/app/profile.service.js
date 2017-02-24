@@ -1,5 +1,5 @@
 "use strict";
-var profile_1 = require('./profile');
+var profile_1 = require("./profile");
 var ProfileService = (function () {
     function ProfileService() {
         this.profiles = [
