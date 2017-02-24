@@ -36,27 +36,37 @@ namespace WebApiWeather.Controllers
             string url = "http://api.openweathermap.org/data/2.5/weather?q=" + city +
             "&appid=59a09e40f741432d89830ab9344856e1&units=metric&lang=hr";
 
-            WebRequest request = WebRequest.Create(url);
-            request.ContentType = "application/json";
-            request.Method = "GET";
-
-
-            using (WebResponse response = request.GetResponse())
+            using (WebClient client = new WebClient())
             {
-                using (Stream dataStream = response.GetResponseStream())
-                {
-                    StreamReader reader = new StreamReader(dataStream, Encoding.UTF8);
-                    // Read the content.
-                    string responseFromServer = reader.ReadToEnd();
+                string responseFromServer = client.DownloadString(url);
 
-                    reader.Close();
-
-                    return new HttpResponseMessage()
+                return new HttpResponseMessage()
                     {
                         Content = new StringContent(responseFromServer, System.Text.Encoding.UTF8, "application/json")
                     };
-                }
             }
+
+            //WebRequest request = WebRequest.Create(url);
+            //request.ContentType = "application/json";
+            //request.Method = "GET";
+
+
+            //using (WebResponse response = request.GetResponse())
+            //{
+            //    using (Stream dataStream = response.GetResponseStream())
+            //    {
+            //        StreamReader reader = new StreamReader(dataStream, Encoding.UTF8);
+            //        // Read the content.
+            //        string responseFromServer = reader.ReadToEnd();
+
+            //        reader.Close();
+
+            //        return new HttpResponseMessage()
+            //        {
+            //            Content = new StringContent(responseFromServer, System.Text.Encoding.UTF8, "application/json")
+            //        };
+            //    }
+            //}
         }
     }
 }
