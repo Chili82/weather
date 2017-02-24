@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using System.Web.Http;
 using WebApiWeather.Models;
 
@@ -31,20 +32,33 @@ namespace WebApiWeather.Controllers
         }
 
         [Route("api/product/weather/{city:alpha}")]
-        public HttpResponseMessage GetWeather(string city)
+        public async Task<HttpResponseMessage> GetWeather(string city)
         {
             string url = "http://api.openweathermap.org/data/2.5/weather?q=" + city +
             "&appid=59a09e40f741432d89830ab9344856e1&units=metric&lang=hr";
 
-            using (WebClient client = new WebClient())
+            using (HttpClient client = new HttpClient())
             {
-                string responseFromServer = client.DownloadString(url);
+                string responseFromServer = await client.GetStringAsync(url);
 
                 return new HttpResponseMessage()
-                    {
-                        Content = new StringContent(responseFromServer, System.Text.Encoding.UTF8, "application/json")
-                    };
+                {
+                    Content = new StringContent(responseFromServer, System.Text.Encoding.UTF8, "application/json")
+                };
+
             }
+
+                
+
+            //using (WebClient client = new WebClient())
+            //{
+            //    string responseFromServer = client.DownloadString(url);
+
+            //    return new HttpResponseMessage()
+            //        {
+            //            Content = new StringContent(responseFromServer, System.Text.Encoding.UTF8, "application/json")
+            //        };
+            //}
 
             //WebRequest request = WebRequest.Create(url);
             //request.ContentType = "application/json";
